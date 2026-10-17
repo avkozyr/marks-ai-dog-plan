@@ -1,0 +1,8 @@
+.progress{position:relative;height:1.1rem;max-width:220px;background:var(--md-default-fg-color--lightest);border-radius:.3rem;overflow:hidden;margin:0}
+.progress-bar{height:100%;background:var(--md-primary-fg-color)}
+.progress-label{position:absolute;inset:0;margin:0;font-size:.7rem;line-height:1.1rem;text-align:center;color:var(--md-default-fg-color);font-weight:600}
+.status{display:inline-block;padding:0 .5em;border-radius:.6em;font-size:.75rem;font-weight:600;border:1px solid}
+.status.Draft{color:#78909c;border-color:#78909c}
+.status.Active{color:#f0ad4e;border-color:#f0ad4e}
+.status.Done{color:#5cb85c;border-color:#5cb85c}
+.status.Superseded{color:#d9534f;border-color:#d9534f}
